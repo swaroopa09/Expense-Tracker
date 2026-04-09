@@ -23,7 +23,7 @@ import GaugeCard from "../components/GaugeCard";
 import { Cell, Legend, Pie, ResponsiveContainer, Tooltip } from 'recharts';
 import AddTransactionModal from "../components/AddTransactionModal";
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://expense-tracker-backend-fema.onrender.com/api";
 
 const getAuthHeader = () => {
   const token = 
