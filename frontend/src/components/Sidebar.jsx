@@ -146,7 +146,7 @@ const renderMenuItem = ({ text, path, icon }) => {
                     sidebarStyles.footerLink.base,
                     isCollapsed && sidebarStyles.footerLink.collapsed,
                 )}
-                to="https://www.hexagondigitalservices.com/contact"
+                to="https://my-portfolio-seven-topaz-58.vercel.app/#ContactSection"
                 >
                     <HelpCircle size={20} className=" text-gray-500" />
                     {isCollapsed && <span>Support</span>}
@@ -245,7 +245,7 @@ const renderMenuItem = ({ text, path, icon }) => {
                     <div className={sidebarStyles.mobileFooter}>
                         <Link 
                         onClick={() => setMobileOpen(false)}
-                        to="https://www.hexagondigitalservices.com/contact" 
+                        to="https://my-portfolio-seven-topaz-58.vercel.app/#ContactSection" 
                         className={sidebarStyles.mobileFooterLink}
                         >
                             <HelpCircle size={20} className=" text-gray-500" />
